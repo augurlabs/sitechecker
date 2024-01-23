@@ -15,9 +15,9 @@ client = slacker.WebClient(token=slack_token)
 #except slacker.errors.SlackApiError as e: 
 #    assert e.response["error"]
 
-website_url = "https://eightknot.chaoss.tv"
+#website_url = "https://eightknot.chaoss.tv"
 
-#website_url = "http://192.168.0.95:5038"
+website_url = "http://192.168.0.95:5038"
 
 r = requests.get(f'{website_url}', verify=False, timeout=5)
 
