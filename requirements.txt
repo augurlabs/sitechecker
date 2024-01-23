@@ -5,3 +5,4 @@ logging
 requests
 slack_sdk
 urllib3
+csv
