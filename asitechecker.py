@@ -18,8 +18,10 @@ client = slacker.WebClient(token=slack_token)
 website_url = "https://eightknot.chaoss.tv"
 
 #website_url = "http://192.168.0.95:5038"
+r = requests.get(f'{website_url}', timeout=5)
 
-r = requests.get(f'{website_url}', verify=False, timeout=5)
+##Need to set verifiable=False for non-https
+#r = requests.get(f'{website_url}', verify=False, timeout=5)
 
 if r.status_code != 200:
     if os.path.isfile('./fail.txt'): 
