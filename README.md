@@ -13,3 +13,8 @@ A website deadoralive checker
 2. You need to create an app, and generate an app token that has permissions to create a chat message
 3. The required channel ID can be obtained by right clicking on a channel. You likely need admin rights on the Slack org to make this work https://slack.dev/python-slack-sdk/installation/index.html#access-tokens
 4. Export the slack application token as an environment variable, and add that variable to the default .bashrc, .profile. .zshrc or other shell environment setup configuratoin of your choosing. `export SLACK_TOKEN='my-slack-app-token'` or something similar. 
+
+
+Copyright 2024 Sal Bando, The Milwaukee Brewers, and Major League Baseball. No rebroadcast, retransmission or other use of the voice of Bob Uecker will be allowed by the Green Bay Packers without the expressed, written permission of Sal Bando, The Milwaukee Brewers, and Major League Baseball. 
+
+Oh, the Software is Copyright 2024 Sean P. Goggins 
