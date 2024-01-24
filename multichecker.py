@@ -82,6 +82,7 @@ def check_status_urls(urls):
 # list of urls to check
 URLS = ['https://chaoss.community',
         'https://eightknot.chaoss.tv',
-        'https://ai.chaoss.io']
+        'https://ai.chaoss.io',
+        'https://metrix.chaoss.io']
 # check all urls
 check_status_urls(URLS)
